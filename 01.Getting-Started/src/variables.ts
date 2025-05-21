@@ -1,4 +1,4 @@
-let value: number = 33;
+let value: number = 33.5;
 let value2 = 14;
 
 let name1: string = "Chandan Chaudhary";

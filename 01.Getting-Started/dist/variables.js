@@ -1,5 +1,5 @@
 "use strict";
-let value = 33;
+let value = 33.5;
 let value2 = 14;
 let name1 = "Chandan Chaudhary";
 let name2 = "ChanduBhaiii";
