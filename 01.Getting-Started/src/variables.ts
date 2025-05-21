@@ -15,3 +15,11 @@ console.log(isPublished);
 let a;
 a = 51;
 a = "Chandan";
+
+let data;
+
+function getData() {
+    return "Information";
+}
+
+data = getData(); // ==> it is still any (that's why avoid the use of 'any')
