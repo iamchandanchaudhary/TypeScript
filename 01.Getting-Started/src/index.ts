@@ -1,3 +1,3 @@
-let value: number = 33;
-
-console.log(value);
+let number: number = 18;
+console.log(number);
+ 

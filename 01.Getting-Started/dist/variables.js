@@ -1,0 +1,13 @@
+"use strict";
+let value = 33;
+let value2 = 14;
+let name1 = "Chandan Chaudhary";
+let name2 = "ChanduBhaiii";
+let isPublished = true;
+let isPublished2 = false;
+console.log(value);
+console.log(name1);
+console.log(isPublished);
+let a;
+a = 51;
+a = "Chandan";

@@ -1,3 +1,3 @@
 "use strict";
-let value = 33;
-console.log(value);
+let number = 18;
+console.log(number);
