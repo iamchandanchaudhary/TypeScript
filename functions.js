@@ -1,3 +1,4 @@
+"use strict";
 function getSum(num) {
     return num + 2;
 }
@@ -11,11 +12,8 @@ getUpper("chandan");
 function signUpUser(name, email, isPaid) { }
 signUpUser("Chandan", "chandan@gmail.com", true);
 // arrow function
-var loginUser = function (name, email, isPaid) { };
+let loginUser = (name, email, isPaid) => { };
 loginUser("c", "c@.com", false);
 // giving default value (default parameter)
-var getSolution = function (num1, num2, num3) {
-    if (num3 === void 0) { num3 = 21; }
-    return num1 + num2 + num3;
-};
+let getSolution = (num1, num2, num3 = 21) => { return num1 + num2 + num3; };
 getSolution(18, 55);
