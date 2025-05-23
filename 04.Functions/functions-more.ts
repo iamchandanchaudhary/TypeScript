@@ -8,11 +8,21 @@ let findSum2 = (num: number): number => {
     return num + num;
 }
 
-// Different case --> when different value required
-function getValue(num: number){
-    if(num > 5) {
-        return true;
-    }
-
-    return "200 OK";
+const getMessage = (s: string): string => {
+    return "";
 }
+
+// Different case --> when different value required
+// function getValue(num: number): boolean {
+//     if(num > 5) {
+//         return true;
+//     }
+
+//     return "200 OK";
+// }
+
+let heros = ["caption america", "thor", "spiderman", "ironman"]
+
+heros.map((hero): string => {
+    return `My hero : ${hero}`;
+})

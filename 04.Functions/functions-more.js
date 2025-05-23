@@ -5,9 +5,10 @@ let findSum = (num) => {
 let findSum2 = (num) => {
     return num + num;
 };
-function getValue(num) {
-    if (num > 5) {
-        return true;
-    }
-    return "200 OK";
-}
+const getMessage = (s) => {
+    return "";
+};
+let heros = ["caption america", "thor", "spiderman", "ironman"];
+heros.map((hero) => {
+    return `My hero : ${hero}`;
+});

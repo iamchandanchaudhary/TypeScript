@@ -1,5 +1,4 @@
 "use strict";
 let number = 18;
-number = 20; // valid 
-// number = "Hello";  // Error: Argument of type 'number' is not assignable to parameter of type 'string'.
+number = 20;
 console.log(number);

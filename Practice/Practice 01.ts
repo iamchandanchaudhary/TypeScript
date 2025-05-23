@@ -1,3 +1,3 @@
-let firstName: string = "Chandan";
+let yourName: string = "Chandan";
 
-console.log(firstName);
+console.log(yourName);
