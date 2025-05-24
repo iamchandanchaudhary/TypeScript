@@ -1,3 +1,3 @@
 "use strict";
-let firstName = "Chandan";
-console.log(firstName);
+let yourName = "Chandan";
+console.log(yourName);

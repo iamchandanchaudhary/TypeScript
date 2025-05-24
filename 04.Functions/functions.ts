@@ -6,6 +6,7 @@ function getSum(num: number) {
 // & you know 'any' datatype have multiple drawbacks.
 
 getSum(10);
+// getSum(10, 20); // can't possible
 
 function getUpper(value: string) {
     return value.toUpperCase();
@@ -24,3 +25,10 @@ loginUser("c", "c@.com", false);
 // giving default value (default parameter)
 let getSolution = (num1: number, num2:number, num3:number = 21) => { return num1 + num2 + num3}
 getSolution(18, 55);
+
+// Optional parameter
+function calculateNum(num1: number, num2?: number): number {
+    return num1;
+}
+
+calculateNum(15);
