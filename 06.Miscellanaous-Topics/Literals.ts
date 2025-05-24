@@ -1,8 +1,7 @@
-// ==> Literals (exact or specific)
 let num: number = 71;
 
-// You can't pass another value
-let quantity1: 50 = 50;
+// ==> Literals (exact or specific)
+let quantity1: 50 = 50; // You can't pass another value
 // let quantity1: 50 = 51; // Error
 
 let quantity2: 50 | 100 = 100; // Only these 2 value avilable
