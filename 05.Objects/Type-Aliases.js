@@ -14,3 +14,6 @@ let person3 = {
     name: "Vijay Pandit",
     age: 25,
 };
+function createPerson(person) {
+}
+createPerson({ id: 207, name: "A", age: 21 });

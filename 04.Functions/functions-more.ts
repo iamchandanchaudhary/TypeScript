@@ -31,7 +31,7 @@ heros.map((hero): string => {
 function printMsg(msg: string): void {
     console.log(msg);
     
-    // return 1; // ==> In void return you can't return any other type
+    // return 1; // ==> In void return, you can't return any other type
     return;
 }
 

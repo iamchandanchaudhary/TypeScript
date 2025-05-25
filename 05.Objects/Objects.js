@@ -8,6 +8,7 @@ let employee = {
     name: "Angad",
     age: 42,
     city: "",
+    height: 5.4,
 };
 employee.age = 33;
 let details = {

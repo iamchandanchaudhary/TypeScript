@@ -13,3 +13,7 @@ let loginUser = (name, email, isPaid) => { };
 loginUser("c", "c@.com", false);
 let getSolution = (num1, num2, num3 = 21) => { return num1 + num2 + num3; };
 getSolution(18, 55);
+function calculateNum(num1, num2) {
+    return num1;
+}
+calculateNum(15);
