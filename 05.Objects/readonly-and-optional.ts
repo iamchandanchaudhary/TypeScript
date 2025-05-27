@@ -18,9 +18,29 @@ type User = { // With Aliases
     wight?: number,
 }
 
-let getUser: User = {
+let user1: User = {
     id: "APS2",
     name: "Anjali",
     isPaid: true,
     // wight: 50.6,
+}
+
+let user2: User = {
+    id: "APS3",
+    name: "Avantika",
+    isPaid: true,
+    wight: 54.6,
+}
+
+// => Mixing 2 Aliases
+type cardNumber = {
+    cardNumber: number
+}
+
+type cardDate = {
+    cardDate: string
+}
+
+type cardDetails = cardNumber & cardDate & {
+    cvv: number
 }
