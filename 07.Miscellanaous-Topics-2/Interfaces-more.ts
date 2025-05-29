@@ -16,7 +16,7 @@ interface StudentProfile {
     githubToken: string
 }
 
-// ==> There is Inheritance also possible
+// ==> Inheritance is also possible in Interface
 interface Adimn extends StudentProfile {
     role: "hr" | "learner" | "employee"
 }
@@ -37,7 +37,7 @@ let stu2: StudentProfile = {
     githubToken: "Chandu55"
 }
 
-// Use of inherited admin
+// Use of inherited admin (Interface)
 let stu3: Adimn = {
     dbId: 204,
     name: "Chandan Chaudhary",
