@@ -9,7 +9,7 @@ user[1].length  // ==> it will suggest only all the string methods
 
 let rcb: [number, number, number] = [255, 255, 255];  // Prime Example
 
-// Using Aliases
+// Using like Aliases
 type User = [number, string, number];
 
 // Making it Flexible & strict
