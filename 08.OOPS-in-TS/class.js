@@ -4,8 +4,11 @@ class People {
         this.city = "Basti";
         this.email = email;
         this.name = name;
-        console.log(name);
-        
     }
 }
-const p1 = new People("c@gamil.com", "Chandan");
+const p1 = new People("chandan@gmail.com", "Chandan");
+class People1 {
+    constructor(email, name) {
+    }
+}
+const p2 = new People("chandan@gmail.com", "Chandan");

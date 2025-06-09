@@ -17,3 +17,14 @@ class People {
 }
 
 const p1 = new People("chandan@gmail.com", "Chandan");
+// p1.city = "Lucknow"; // ERROR
+
+// ==> Another method of class decleration
+class People2 {
+
+    // Constructor
+    constructor(email: string, name: string) {
+    }
+}
+
+const p2 = new People("chandu@gmail.com", "Chandu");
