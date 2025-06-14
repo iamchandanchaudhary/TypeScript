@@ -7,8 +7,8 @@ class People {
     }
 }
 const p1 = new People("chandan@gmail.com", "Chandan");
-class People1 {
+class People2 {
     constructor(email, name) {
     }
 }
-const p2 = new People("chandan@gmail.com", "Chandan");
+const p2 = new People("chandu@gmail.com", "Chandu");
